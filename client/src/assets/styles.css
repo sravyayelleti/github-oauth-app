@@ -1,0 +1,25 @@
+body {
+    font: 15px/1.8 "Poppins", sans-serif !important;
+    background-color: #E0E0E0;
+}
+
+.table td,
+.table th {
+    padding: 20px !important;
+}
+
+.login-link {
+    text-decoration: none;
+    color: black !important;
+}
+
+.login-button {
+    padding: auto;
+    margin: auto;
+}
+
+.profile-card {
+    height: 50px;
+    width: 100%;
+    padding: 5px;
+}

@@ -1,0 +1,25 @@
+{
+    "name": "github-oauth-app",
+    "version": "1.0.0",
+    "description": "",
+    "author": "",
+    "scripts": {
+        "build-app": "npm run build-client && npm install && npm start",
+        "build-client": "mkdir -p public && cd client && npm run build-app && cd ..",
+        "start": "pm2 start index.js -n CaseStudy && pm2 monit"
+    },
+    "main": "index.js",
+    "dependencies": {
+        "axios": "^0.27.2",
+        "cookie-parser": "^1.4.6",
+        "express": "^4.18.1",
+        "@vue/cli-service": "^4.5.0",
+        "vue-template-compiler": "2.6.14"
+    },
+    "devDependencies": {
+        "sass": "^1.32.0",
+        "sass-loader": "^10.0.0"
+    },
+    "keywords": [],
+    "license": "ISC"
+}
